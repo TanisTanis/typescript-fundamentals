@@ -13,7 +13,7 @@ function timeout(n: number) {
  */
 export async function addNumbers(a: number, b: number) {
   await timeout(500);
-  return a + b;
+  return 'hello';
 }
 
 //== Run the program ==//
